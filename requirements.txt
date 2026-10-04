@@ -3,7 +3,6 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-statsmodels
 tensorflow
 torch
 transformers
