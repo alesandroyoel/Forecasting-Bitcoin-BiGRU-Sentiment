@@ -1,0 +1,47 @@
+# ===== Data =====
+# Notebook ini menulis sebagian besar CSV ke /content/drive/MyDrive/ (Google Drive), jadi baris ini
+# jaga-jaga untuk CSV yang kebetulan ikut ter-generate/terdownload ke folder lokal repo.
+*.csv
+
+# Kalau ingin tetap menyimpan 1-2 contoh kecil sebagai sample, whitelist manual, mis.:
+# !sample_data.csv
+
+# ===== Model checkpoints & artefak training =====
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+saved_model/
+
+# ===== Cache library =====
+# Hugging Face model cache (Indo RoBERTa akan terdownload ulang ke sini tiap run)
+.cache/
+*.lock
+
+# ===== Jupyter / Python umum =====
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ===== Gambar hasil run (biarkan Anda pilih manual mana yang mau disimpan) =====
+*.png
+*.jpg
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Google Colab / Drive mount =====
+drive/
+
+# ===== Environment / secrets =====
+.env
+*.key
