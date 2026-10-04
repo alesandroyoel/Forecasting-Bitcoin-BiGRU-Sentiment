@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+tensorflow
+torch
+transformers
+requests
+beautifulsoup4
+lxml
+shap
